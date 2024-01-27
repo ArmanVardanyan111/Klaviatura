@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292929"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="379dp"
+        android:layout_height="106dp"
+        android:background="#C8DAA0"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#AD3131"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="C"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="1"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="3"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="5"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="7"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="9"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="("
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="-"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="*"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="/"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="88dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#FE6600"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:textColor="@color/black"
+        android:text="="
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text=")"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="0"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="8"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="6"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="4"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#565B5E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="2"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#76675E"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="+/-"
+        android:textSize="27px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#D1D1D1"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="√"
+        android:textColor="@color/black"
+        android:textSize="60px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="65dp"
+        android:layout_height="95dp"
+        android:backgroundTint="#D1D1D1"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="+"
+        android:textColor="@color/black"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#D1D1D1"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="%"
+        android:textColor="@color/black"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#D1D1D1"
+        android:fontFamily="serif-monospace"
+        android:forceHasOverlappingRendering="false"
+        android:text="X^y"
+        android:textColor="@color/black"
+        android:textSize="27px"
+        android:textStyle="bold"
+        app:cornerRadius="20px"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="154dp"
+        android:layout_height="3dp"
+        android:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="323dp"
+        android:layout_height="42dp"
+        android:text="3(3/8)+66(4/7)-√(42(2/25))"
+        android:textSize="70px"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
